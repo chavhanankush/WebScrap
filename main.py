@@ -5,7 +5,7 @@ url = "https://codewithharry.com"
 
 r = requests.get(url)
 htmlContent = r.content
-print(htmlContent)
+# print(htmlContent)
 
 
 soup = BeautifulSoup(htmlContent, 'html.parser')
